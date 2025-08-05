@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+@media (max-width: 480px) {
+  .top-left {
+    font-size: 1.2rem;
+  }
+  
+  .arrow, .arroww {
+    font-size: 1.2rem;
+    padding: 6px;
+  }}
+  @media (max-width: 768px) {
+    .top-left {
+      font-size: 1.5rem;
+    }
+
+    .arrow, .arroww {
+      font-size: 1.5rem;
+      padding: 8px;
+    }
+  }
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 5px;
+    }
+  
+    .row > div {
+      border-right: none;
+      padding-right: 0;
+    }
+  }
+
+.fa {
+color:rgba(245, 100, 17, 1)
+}
+body {
+    font-family: 'Poppins';font-size: 12px; font-weight: bold;
+}
+.btn{
+    color:white;
+    background-color:rgba(245, 100, 17, 1) ;
+    margin-left: 15px;
+
+
+  }
+  .row{
+  border-top-style: groove;
+  border-bottom-style: groove;
+  }
+  .contact-info,
+.social-icons {
+  white-space: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; }
+  
+  .top-left {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  }
+  .navbar-nav .nav-link {
+    padding: 10 10px;
+    color: #333;
+  }
+  .arrow {
+    left: 10px;
+  }
+  
+
+  .arroww {
+    right: 10px;
+  }
+  .arrow, .arroww {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .divider-right:not(:last-child) {
+    border-right: 1px solid #bbb;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+
+
+.active{
+    color: black;
+}
+.grid-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.grid-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
