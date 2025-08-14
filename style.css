@@ -30,11 +30,24 @@ body {
     margin-left: auto;
     margin-right: 2rem;
     white-space: nowrap;
+  border: none;}
 
+    .get-started-btn:hover, .get-started-btn:focus 
+      {
+      color:white;
+    background-color:rgba(245, 100, 17, 1) ;
+    }
+    
+    
+    
     
 
-
-  }
+    
+    
+   
+    
+    
+    
   .row{
   border-top-style: groove;
   border-bottom-style: groove;
